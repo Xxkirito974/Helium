@@ -1,0 +1,105 @@
+body{
+    background-color: #1D1D1D;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    color: white;
+}
+
+.logo{
+    padding: 1vw;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3.5vw;
+    margin-bottom: 0.1vw;
+}
+
+h3{
+    color: #474DFF;
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-bottom: 0.1vw;
+}
+
+.header1{
+    width: 35vw;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+}
+
+h4{
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 1vw;
+}
+
+footer{
+   background-color: #0D0D0D;
+   bottom: 0;
+   width: 99%;
+   margin-left: 1%;
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 0.5vw;
+}
+
+
+.core{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+button{
+    width: auto;
+    height: 3.8vh;
+    border-radius: 10px;
+    background-color: #474DFF;
+    color: white;
+    margin-bottom: 5%;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 1vw;
+    padding-left: 9vw;
+}
+
+.investissor{
+    margin-right: 4vw;
+    margin-bottom: 0.5vw;
+}
+
+.investissor img{
+    width: 8vw;
+    margin-left: 15vw;
+}
